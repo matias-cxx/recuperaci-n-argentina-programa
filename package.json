@@ -1,0 +1,28 @@
+{
+  "name": "reecuperacion-trabajo-practico-final",
+  "version": "1.0.0",
+  "description": "recupreacion trabajo final",
+  "main": "app.js",
+  "scripts": {
+   "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matias-cxx/recuperaci-n-argentina-programa.git"
+  },
+  "author": "matias ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matias-cxx/recuperaci-n-argentina-programa/issues"
+  },
+  "homepage": "https://github.com/matias-cxx/recuperaci-n-argentina-programa#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.6.2",
+    "nodemon": "^3.0.1",
+    "sequelize": "^6.33.0"
+  }
+}
